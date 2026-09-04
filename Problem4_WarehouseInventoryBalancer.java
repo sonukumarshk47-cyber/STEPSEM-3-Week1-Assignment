@@ -24,7 +24,6 @@ public class Problem4_WarehouseInventoryBalancer {
         String highestSection = "Section A";
         int highestIndex = 0;
 
-        // Check Section A
         for (int i = 0; i < sectionA.length; i++) {
 
             if (sectionA[i] > highestQuantity) {
@@ -32,9 +31,7 @@ public class Problem4_WarehouseInventoryBalancer {
                 highestSection = "Section A";
                 highestIndex = i;
             }
-        }
-
-        // Check Section B
+    
         for (int i = 0; i < sectionB.length; i++) {
 
             if (sectionB[i] > highestQuantity) {
